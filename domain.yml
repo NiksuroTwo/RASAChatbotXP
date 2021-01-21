@@ -1,0 +1,25 @@
+intents:
+  - saludo
+  - academico
+  - consejeria
+  - despedida
+
+responses:
+  utter_saludo:
+  - text: "¡Hola! ¿Qué necesitas?'"
+
+  utter_academico:
+  - text: "Intencion Academica"
+
+  utter_consejeria:
+  - text: "Intencion Consejeria"
+
+  utter_adios:
+  - text: "¡Hasta la próxima!"
+
+  utter_default:
+    - text: "Lo siento, no te he entendido, ¡vuelve a intentarlo!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

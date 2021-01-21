@@ -1,0 +1,33 @@
+version: "2.0"
+
+nlu:
+- intent: "saludo"
+  examples: |
+    - hey
+    - hola
+    - buenos dias
+    - buenos tardes
+    - que hay
+
+- intent: "despedida"
+  examples: |
+    - adios
+    - te veo luego
+    - hasta luego
+    - gracias
+
+- intent: "academico"
+  examples: |
+    - problemas con algunas notas
+    - fechas del grado
+    - problemas con un docente
+    - conocer mi rendimiento academico
+    - hablar con el director
+
+- intent: "consejeria"
+  examples: |
+    - no tengo tiempo por trabajo
+    - me he quedado sin sostenimiento
+    - discusion con mis padres
+    - problemas de familia
+    - ruptura con mi pareja

@@ -1,0 +1,27 @@
+version: "2.0"
+
+stories:
+
+- story: say goodbye
+  steps:
+  - intent: despedida
+  - action: utter_adios
+
+- story: pregunta sobre academico
+  steps:
+  - intent: saludo
+  - action: utter_saludo
+  - intent: academico
+  - action: utter_academico
+  - intent: despedida
+  - action: utter_adios
+
+- story: pregunta sobre consejeria
+  steps:
+  - intent: saludo
+  - action: utter_saludo
+  - intent: consejeria
+  - action: utter_consejeria
+  - intent: despedida
+  - action: utter_adios
+
