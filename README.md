@@ -13,7 +13,7 @@ Se recomienda crear un 'environment' especifico para el proyecto, por lo que cre
 ### sudo apt install python3-NombreEnvironment           (Ubuntu)
 ### conda create --name NombreEnvironment python==3.7.6  (Windows 10 - Anaconda)
 
-Posteriormente lo activaremos.
+Posteriormente lo activaremos en Ubuntu con
 
 ### source ./NombreEnvironment/bin/activate 
 
