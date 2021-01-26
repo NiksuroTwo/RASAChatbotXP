@@ -8,6 +8,7 @@ nlu:
     - buenos dias
     - buenos tardes
     - que hay
+    - qhubo
 
 - intent: "despedida"
   examples: |
@@ -15,19 +16,33 @@ nlu:
     - te veo luego
     - hasta luego
     - gracias
+    - vale, gracias
+    - chao
+    - nada, gracias
 
 - intent: "academico"
   examples: |
     - problemas con algunas notas
+    - no puedo ver mis notas
     - fechas del grado
+    - papeles para el grado
     - problemas con un docente
+    - pelea con mi profesor
     - conocer mi rendimiento academico
+    - que tal esta mi rendimiento academico
     - hablar con el director
+    - quien es el rector
 
 - intent: "consejeria"
   examples: |
     - no tengo tiempo por trabajo
+    - estoy muy ocupado con mi labor
     - me he quedado sin sostenimiento
+    - ya no tengo mas dinero
     - discusion con mis padres
+    - hubo una pelea con mis papas
     - problemas de familia
+    - inconvenientes familiares
     - ruptura con mi pareja
+    - corte con mi novia
+    - corte con mi novio

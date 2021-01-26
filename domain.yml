@@ -6,19 +6,28 @@ intents:
 
 responses:
   utter_saludo:
-  - text: "¡Hola! ¿Qué necesitas?'"
+  - text: "¡Hola! ¿Qué necesitas?"
+
+  utter_segundosaludo:
+  - text: "¡Hola otra vez! ¿puedo ayudarte con algo?"
 
   utter_academico:
-  - text: "Intencion Academica"
+  - text: "Te recomiendo contactar al correo 'academico@unimilitar.edu.co' para que puedan asesorarte :)"
 
   utter_consejeria:
-  - text: "Intencion Consejeria"
+  - text: "Te recomiendo contactar al correo 'consejeria@unimilitar.edu.co' para que puedan asesorarte :)"
 
   utter_adios:
   - text: "¡Hasta la próxima!"
 
+  utter_mas_ayuda:
+  - text: "¿Puedo ayudarte con algo mas?"
+
   utter_default:
     - text: "Lo siento, no te he entendido, ¡vuelve a intentarlo!"
+
+actions:
+- action_chat_restart
 
 session_config:
   session_expiration_time: 60

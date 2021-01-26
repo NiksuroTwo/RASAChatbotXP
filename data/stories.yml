@@ -2,19 +2,14 @@ version: "2.0"
 
 stories:
 
-- story: say goodbye
-  steps:
-  - intent: despedida
-  - action: utter_adios
-
 - story: pregunta sobre academico
   steps:
   - intent: saludo
   - action: utter_saludo
   - intent: academico
-  - action: utter_academico
-  - intent: despedida
-  - action: utter_adios
+  - action: utter_academico 
+  - action: utter_mas_ayuda 
+  - action: action_restart
 
 - story: pregunta sobre consejeria
   steps:
@@ -22,6 +17,27 @@ stories:
   - action: utter_saludo
   - intent: consejeria
   - action: utter_consejeria
-  - intent: despedida
-  - action: utter_adios
+  - action: utter_mas_ayuda
+  - action: action_restart
 
+- story: Solo pregunta consejeria
+  steps:
+  - intent: consejeria
+  - action: utter_consejeria
+  - action: utter_mas_ayuda
+  - action: action_restart
+
+- story: Solo pregunta academico
+  steps:
+  - intent: academico
+  - action: utter_academico  
+  - action: utter_mas_ayuda
+  - action: action_restart
+
+- story: Doble saludo
+  steps:
+  - intent: saludo
+  - action: utter_saludo 
+  - intent: saludo
+  - action: utter_segundosaludo
+  - action: action_restart
