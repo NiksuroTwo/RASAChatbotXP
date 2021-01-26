@@ -6,3 +6,11 @@ rules:
   - action: utter_adios
   - action: action_restart
 
+#- rule: Say goodbye anytime the user says goodbye
+#  steps:
+#  - intent: nombreUser
+#  - action: utter_nombreUser
+#  - action: action_listen
+#  - intent: respondedUser
+#  - action: utter_respondedUser
+#  - action: action_restart

@@ -41,3 +41,12 @@ stories:
   - intent: saludo
   - action: utter_segundosaludo
   - action: action_restart
+
+- story: Registrar UserName
+  steps: 
+  - intent: nombreUser
+  - action: utter_nombreUser
+  - intent: RespondUser
+  - action: utter_RespondUser
+  - action: action_restart
+

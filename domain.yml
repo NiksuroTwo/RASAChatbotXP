@@ -3,10 +3,12 @@ intents:
   - academico
   - consejeria
   - despedida
+  - nombreUser
+  - RespondUser
 
 responses:
   utter_saludo:
-  - text: "¡Hola! ¿Qué necesitas?"
+  - text: "¡Hola! ¿En qué puedo ayudarte?"
 
   utter_segundosaludo:
   - text: "¡Hola otra vez! ¿puedo ayudarte con algo?"
@@ -23,11 +25,14 @@ responses:
   utter_mas_ayuda:
   - text: "¿Puedo ayudarte con algo mas?"
 
-  utter_default:
-    - text: "Lo siento, no te he entendido, ¡vuelve a intentarlo!"
+  utter_nombreUser:
+  - text: "¡Hola! Soy Somos+Bot y estoy aquí para ayudarte, ¿Cómo te llamas?"  
 
-actions:
-- action_chat_restart
+  utter_default:
+    - text: "Lo siento, no te he entendido, creo que dijiste algo que aun no estoy preparado para responder bien :("
+
+  utter_RespondUser:
+    - text: "¡Gracias! Ahora, ¿En qué puedo ayudarte?"
 
 session_config:
   session_expiration_time: 60

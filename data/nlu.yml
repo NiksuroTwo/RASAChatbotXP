@@ -18,31 +18,56 @@ nlu:
     - gracias
     - vale, gracias
     - chao
-    - nada, gracias
+    - nada mas, muchas gracias
 
 - intent: "academico"
   examples: |
     - problemas con algunas notas
+    - nota no es correcta
+    - no puedes consultar tus notas
+    - problemas con el sistema UNIVEX
     - no puedo ver mis notas
     - fechas del grado
+    - procedimientos para graduarse
     - papeles para el grado
     - problemas con un docente
+    - inconvenientes con el profesor de alguna asignatura
     - pelea con mi profesor
     - conocer mi rendimiento academico
+    - No tienes claro cual es tu estado de rendimiento académico
     - que tal esta mi rendimiento academico
     - hablar con el director
+    - No te has podido comunicar con algún directivo
     - quien es el rector
 
 - intent: "consejeria"
   examples: |
     - no tengo tiempo por trabajo
+    - cruces entre tu horario laboral
     - estoy muy ocupado con mi labor
     - me he quedado sin sostenimiento
+    - problemas económicos para el pago de tu matrícula
     - ya no tengo mas dinero
     - discusion con mis padres
+    - problemas en tu casa con tus padres
     - hubo una pelea con mis papas
     - problemas de familia
     - inconvenientes familiares
+    - familia está afrontando una situación muy difícil
+    - crisis económica
+    - muerte de un familiar
     - ruptura con mi pareja
+    - afrontando una crisis con tu pareja
     - corte con mi novia
     - corte con mi novio
+
+- intent: "nombreUser"
+  examples: |
+    - nombre usuario
+
+- intent: "RespondUser"
+  examples: |
+    - mi nombre es
+    - me llamo
+    - me conocen como
+    - soy
